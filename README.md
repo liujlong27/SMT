@@ -67,7 +67,7 @@ A minimal configuration file should follow this format:
 }
 ```
 
-The three entries correspond to:
+The two entries correspond to:
 
 * `llm_api`: the default OpenAI-compatible API endpoint for commercial models.
 * `local`: a local OpenAI-compatible inference endpoint, used for selected local models.
