@@ -1,0 +1,10 @@
+{
+    "llm_api": {
+        "base_url": "https://your-api-endpoint/v1",
+        "api_key": "YOUR_API_KEY"
+    },
+    "local": {
+        "base_url": "http://localhost:1234/v1",
+        "api_key": "YOUR_LOCAL_API_KEY"
+    }
+}
