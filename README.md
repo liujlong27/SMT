@@ -148,10 +148,10 @@ Each benchmark item is stored with fields similar to:
 ```json
 {
   "target_question": {
-    "success": false,
+    "success": true,
     "queries": 3,
     "payload": "...",
-    "score": 42.0
+    "score": 60.0
   }
 }
 ```
@@ -208,10 +208,10 @@ We strongly discourage deploying this framework against production systems witho
 If you find this repository useful, please cite:
 
 ```bibtex
-@inproceedings{anonymous2026smt,
+@inproceedings{liu2026smt,
     title={Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces},
-    author={Anonymous Authors},
-    booktitle={Under Review},
+    author={Junlong Liu and Haobo Wang and Weiqi Luo and Xiaojun Jia},
+    booktitle={arXiv preprint arXiv:2607.00481},
     year={2026}
 }
 ```
