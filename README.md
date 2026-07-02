@@ -151,7 +151,7 @@ Each benchmark item is stored with fields similar to:
     "success": true,
     "queries": 3,
     "payload": "...",
-    "score": 60.0
+    "score": 60
   }
 }
 ```
@@ -208,7 +208,7 @@ We strongly discourage deploying this framework against production systems witho
 If you find this repository useful, please cite:
 
 ```bibtex
-@inproceedings{liu2026smt,
+@article{liu2026smt,
     title={Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces},
     author={Junlong Liu and Haobo Wang and Weiqi Luo and Xiaojun Jia},
     booktitle={arXiv preprint arXiv:2607.00481},
