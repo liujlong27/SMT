@@ -172,12 +172,10 @@ To improve reproducibility:
 
 * Prefer dated model snapshots whenever available.
 * Keep the benchmark files unchanged.
-* Archive the exact `config.example.json` structure, but never publish API keys.
 * Record the provider, endpoint, model ID, date, and parameters for each run.
-* Retain generated checkpoint files and evaluation logs.
 * Use the same threshold and query budget reported in the paper.
 
-The simulated validation traces include randomized elements, so exact textual interaction histories may differ between runs even under the same high-level configuration.
+All experiments reported in this repository were conducted in June 2026. Because the simulated validation traces include randomized elements, model outputs are inherently stochastic, and both model capabilities and external detection mechanisms continue to evolve, exact interaction histories and reproduced results may differ from those reported here even under the same high-level configuration.
 
 ## Main Results
 
