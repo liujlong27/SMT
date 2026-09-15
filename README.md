@@ -16,6 +16,7 @@ If you find this repository useful for your research, please consider citing our
 
 ```text
 .
+├── install.sh                      # Installation script for setting up the environment and dependencies
 ├── main.py                         # Main evaluation entry point
 ├── requirements.txt                # Python dependencies
 ├── data/
@@ -37,6 +38,21 @@ If you find this repository useful for your research, please consider citing our
 ## Getting Started
 
 ### 1. Create the Environment
+
+We provide an installation script to automatically set up the Python environment and install all required dependencies.
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+After the installation is complete, activate the virtual environment:
+
+```bash
+source .venv/bin/activate
+```
+
+Alternatively, you can manually create the environment using Conda:
 
 ```bash
 conda create -n SMT python=3.12
@@ -211,10 +227,10 @@ We strongly discourage deploying this framework against production systems witho
 If you find this repository useful, please cite:
 
 ```bibtex
-@article{liu2026smt,
+@inproceedings{liu2027smt,
     title={Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces},
     author={Junlong Liu and Haobo Wang and Weiqi Luo and Xiaojun Jia},
-    booktitle={arXiv preprint arXiv:2607.00481},
-    year={2026}
+    booktitle={{IEEE} Symposium on Security and Privacy},
+    year={2027}
 }
 ```
