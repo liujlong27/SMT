@@ -82,6 +82,11 @@ DATA_FILE = "SafeBench-Tiny.txt"
 
 TARGET_MODELS = [
     "gpt-4o-2024-11-20",
+    # "gpt-5.4-2026-03-05",
+    # "qwen3-max-2026-01-23",
+    # "gemini-3-flash-preview",
+    # "deepseek-v4-flash",
+    # "claude-sonnet-4-5-20250929", 
 ]
 ```
 
@@ -213,5 +218,3 @@ If you find this repository useful, please cite:
     year={2026}
 }
 ```
-
-After acceptance, please replace the placeholder author and venue fields with the final bibliographic information.
