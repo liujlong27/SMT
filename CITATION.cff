@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "SMT: Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces"
+type: software
+version: 1.0.0
+
+authors:
+  - given-names: Junlong
+    family-names: Liu
+    email: liujlong27@mail2.sysu.edu.cn
+    affiliation: "Guangdong Province Key Lab of Information Security Technology, and School of Computer Science and Engineering, Sun Yat-sen University"
+    orcid: "https://orcid.org/0009-0002-9264-6011"
+
+  - given-names: Haobo
+    family-names: Wang
+    email: wanghb69@mail2.sysu.edu.cn
+    affiliation: "Guangdong Province Key Lab of Information Security Technology, and School of Computer Science and Engineering, Sun Yat-sen University"
+    orcid: "https://orcid.org/0000-0002-2081-156X"
+
+  - given-names: Weiqi
+    family-names: Luo
+    email: luoweiqi@mail.sysu.edu.cn
+    affiliation: "Guangdong Province Key Lab of Information Security Technology, and School of Computer Science and Engineering, Sun Yat-sen University"
+    orcid: "https://orcid.org/0000-0002-8999-6064"
+
+  - given-names: Xiaojun
+    family-names: Jia
+    email: jiaxiaojunqaq@gmail.com
+    affiliation: "Nanyang Technological University, Singapore"
+    orcid: "https://orcid.org/0000-0002-2018-9344"
+
+repository-code: "https://github.com/liujlong27/SMT"
+
+keywords:
+  - "LLM safety"
+  - "jailbreak"
+  - "function calling"
+  - "red teaming"
+  - "tool-enabled LLMs"
+
+preferred-citation:
+  type: conference-paper
+  title: "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces"
+  authors:
+    - given-names: Junlong
+      family-names: Liu
+      orcid: "https://orcid.org/0009-0002-9264-6011"
+
+    - given-names: Haobo
+      family-names: Wang
+      orcid: "https://orcid.org/0000-0002-2081-156X"
+
+    - given-names: Weiqi
+      family-names: Luo
+      orcid: "https://orcid.org/0000-0002-8999-6064"
+
+    - given-names: Xiaojun
+      family-names: Jia
+      orcid: "https://orcid.org/0000-0002-2018-9344"
+
+  collection-title: "IEEE Symposium on Security and Privacy"
+  year: 2027
