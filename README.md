@@ -1,5 +1,7 @@
 # Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.00481-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.00481) [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22807621.svg)](https://doi.org/10.5281/zenodo.22807621) 
+
 ## Introduction
 
 This repository contains the official implementation of our paper:
