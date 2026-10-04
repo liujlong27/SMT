@@ -25,9 +25,9 @@ If you find this repository useful for your research, please consider citing our
 │   ├── SafeBench-Tiny.txt          # Default benchmark
 │   └── JailbreakBench.txt          # Optional benchmark
 ├── figures/
-│   ├── pipline.png                 # Framework overview
-│   ├── main_res1.png               # Main result figure
-│   └── main_res2.png               # Main result figure
+│   ├── pipline.jpd                 # Framework overview
+│   ├── main_res1.jpg               # Main result figure
+│   └── main_res2.jpg               # Main result figure
 ├── utils/
 │   ├── config.example.json         # Example API configuration
 │   ├── eval_h_cot.py               # External evaluation utility
