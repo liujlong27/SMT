@@ -20,12 +20,13 @@ If you find this repository useful for your research, please consider citing our
 .
 ├── install.sh                      # Installation script for setting up the environment and dependencies
 ├── main.py                         # Main evaluation entry point
+├── demo.ipynb                      # Minimal working example
 ├── requirements.txt                # Python dependencies
 ├── data/
 │   ├── SafeBench-Tiny.txt          # Default benchmark
 │   └── JailbreakBench.txt          # Optional benchmark
 ├── figures/
-│   ├── pipline.jpd                 # Framework overview
+│   ├── pipline.jpg                 # Framework overview
 │   ├── main_res1.jpg               # Main result figure
 │   └── main_res2.jpg               # Main result figure
 ├── utils/
@@ -186,6 +187,22 @@ The script reports the following metrics:
 | **ASR**       | Attack Success Rate: percentage of samples whose score reaches the configured threshold |
 | **Avg.Q**     | Average number of API queries used per sample                                           |
 | **Avg.Score** | Average external evaluation score across all samples                                    |
+
+
+## Approximate Resource Requirements
+
+The main SMT experiments are API-based and do not require a local GPU.
+
+- **CPU / Memory:** A standard laptop or desktop is sufficient for running the evaluation scripts.
+- **GPU:** Not required for experiments using commercial LLM APIs.
+- **Network:** A stable Internet connection is required.
+- **API access:** Valid API credentials are required for the selected target models and evaluation model.
+- **Query budget:** With the default `MAX_ROUNDS = 3` and `TURNS_NUM = 3`, SMT uses at most 9 target-model queries per benchmark sample before early stopping.
+- **Runtime:** Runtime mainly depends on the selected model, benchmark size, API latency, and rate limits. A complete evaluation may take several hours.
+- **API cost:** Depends on the model provider and current API pricing.
+
+For locally deployed models, additional GPU and memory requirements depend on the selected model and inference backend.
+
 
 ## Reproducibility Notes
 
