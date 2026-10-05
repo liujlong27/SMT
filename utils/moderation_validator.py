@@ -73,10 +73,10 @@ def validate_moderation_case(moderation_case):
     safe_words = re.findall(r"\b[A-Za-z]+(?:['-][A-Za-z]+)*\b", safe_sample)
     unsafe_words = re.findall(r"\b[A-Za-z]+(?:['-][A-Za-z]+)*\b", unsafe_sample)
 
-    if len(safe_words) < 50:
+    if len(safe_words) < 200:
         raise ValueError(
             f"Invalid safe_sample length: found {len(safe_words)} English words, "
-            "but at least 50 English words are required. "
+            "but at least 200 English words are required. "
             "Reason: the safe_sample is too short to satisfy the dataset validation rule. "
             "Please retry by extracting a longer safe_sample and call "
             "validate_moderation_case(moderation_case) again."
